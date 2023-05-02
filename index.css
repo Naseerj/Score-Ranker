@@ -1,164 +1,370 @@
-/* body{
-    margin: 0 auto;
-} */
-.bigdiv{
-    margin: 100px auto;
-    text-align: center;
-    width: 1000px;
-    background-color: white;
-    border-radius: 10px;
-    display: flex;
- justify-content: center;
- height: 500px;
- padding: 40px;
+body{
+    /* margin: 0 auto; */
+    margin: 0 ;
+    padding: 0;
 }
-.divone{
-    width: 300px;
-    /* background-color: purple; */
-    background-color: #5F3FFC;
-    background-image: linear-gradient(#6541fD,#573DF8,#533AFC, #4926D0, );
-    border-radius: 40px;
-    padding: 30px;
-    position: relative;
-    z-index: 1;
-    
+.bigdiv {
+  margin: 70px auto;
+  text-align: center;
+  /* width: 1000px; */
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  padding: 40px;
 }
-.divone .scorediv{
-    /* margin: 0%; */
-    margin-bottom: 0px;
-    box-shadow: inset -3px -3px 7px #4926D0, inset 3px 3px 5px #4926D0;
-    /* box-shadow:  20px 20px 60px #bebebe, -20px -20px 60px #ffffff; */
-    border-radius: 50%;
-    width: 200px;
-    height: 190px;
-    text-align: center;
-    
+.divone {
+  width: 300px;
+  /* background-color: purple; */
+  background-color: #5f3ffc;
+  background-image: linear-gradient(#6541fd, #573df8, #533afc, #4926d0);
+  border-radius: 40px;
+  padding: 30px;
+  position: relative;
+  z-index: 1;
+}
+.divone .scorediv {
+  /* margin: 0%; */
+  margin-bottom: 0px;
+  box-shadow: inset 4px 4px 8px #4926d0, inset -4px -4px 8px #4926d0;
+  /* box-shadow:  20px 20px 60px #bebebe, -20px -20px 60px #ffffff; */
+  border-radius: 50%;
+  width: 200px;
+  height: 190px;
+  text-align: center;
 
-    /* margin: 30px auto; */
-    /* padding: 10px; */
+  /* margin: 30px auto; */
+  /* padding: 10px; */
 }
-.divone h1{
-    margin-top: 15px;
-    margin-bottom: 10px;
-    color: #FEFDFC;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.divone h1 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  color: #fefdfc;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-.divone h4{
-    margin: 0px;
-    color: #FEFDFC;
+.divone h4 {
+  margin: 0px;
+  color: #fefdfc;
+}
+.divone h2 {
+  color: #f2f5fe;
 
-}
-.scorediv{
-    display: flex;
-    flex-direction: column;
-    column-gap: 2px;
-    font-size: 30px;
-    /* background: red; */
-    /* background: #49256F; */
-    height: 230px;
-    text-align: center;
-    margin: 0 auto;
-}
-.divtwo{
-    box-shadow: 3px 3px 5px 6px #F2F5FE;
-    padding: 40px 30px 30px 50px;
-    width: 300px;
-    border-radius: 20px;
-    position: relative;
-    right: 30px;
-    /* z-index: 10px; */
-    /* border-radius: 0px 0px 5px 10px; */
-    
-}
-.contdiv1{
-    background-color: #FFF6F5;
-    padding: 10px;
-    /* align-items: center; */
-    align-content: center;
-    font-size: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    height: 40px;
-}
-.indiv1{
-    display: flex;
-    justify-content: space-between;
-    width: 110px;
-}
-.contdiv2{
-    background-color: #FFFBF2;
-    padding: 10px;
-    /* align-items: center; */
-    align-content: center;
-    font-size: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    height: 40px;
 
 }
-.indiv2{
-    display: flex;
-    justify-content: space-between;
-    width: 110px;
+.scorediv {
+  display: flex;
+  flex-direction: column;
+  column-gap: 2px;
+  font-size: 30px;
+  /* background: red; */
+  /* background: #49256F; */
+  height: 230px;
+  text-align: center;
+  margin: 0 auto;
 }
-.contdiv3{
-    background-color: #F2FBFA;
-    padding: 10px;
-    /* align-items: center; */
-    align-content: center;
-    font-size: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    height: 40px;
+.divtwo {
+  box-shadow: 3px 3px 5px 6px #f2f5fe;
+  padding: 40px 30px 30px 50px;
+  width: 300px;
+  border-radius: 20px;
+  position: relative;
+  right: 30px;
+  /* z-index: 10px; */
+  /* border-radius: 0px 0px 5px 10px; */
+}
+.contdiv1 {
+  background-color: #fff6f5;
+  padding: 10px;
+  /* align-items: center; */
+  align-content: center;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  height: 40px;
+}
+.indiv1 {
+  display: flex;
+  justify-content: space-between;
+  width: 110px;
+}
+.contdiv2 {
+  background-color: #fffbf2;
+  padding: 10px;
+  /* align-items: center; */
+  align-content: center;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  height: 40px;
+}
+.indiv2 {
+  display: flex;
+  justify-content: space-between;
+  width: 110px;
+}
+.contdiv3 {
+  background-color: #f2fbfa;
+  padding: 10px;
+  /* align-items: center; */
+  align-content: center;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  height: 40px;
+}
+.indiv3 {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+}
+.indiv4 {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+}
 
-}
-.indiv3{
-    display: flex;
-    justify-content: space-between;
-    width: 100px;
-}
-
-.flexdiv{
-    /* display: grid;
+.flexdiv {
+  /* display: grid;
     grid-template-columns: 1fr ;
     grid-template-rows: 1fr 1fr 1fr;
     background-color: red; */
-    display: flex;
-    flex-direction: column;
-    /* justify-content: space-around; */
-    justify-content: space-between;
-    height: 290px;
-    /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  justify-content: space-between;
+  height: 290px;
+  /* background-color: red; */
 }
-.text1{
-    text-align: left;
-    margin-top: 10px;
+.text1 {
+  text-align: left;
+  margin-top: 10px;
 }
-button{
-    background-color: #303359;
-    color: #F2F5FE;
-    padding: 10px;
-    border-radius: 20px;
-    font-size: 15px;
-    margin-top: 20px;
+button {
+  background-color: #303359;
+  color: #f2f5fe;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  margin-top: 20px;
 }
 
-.paradiv{
-    color: #FFF6F5;
-    text-align: center;
-    
+.paradiv {
+  color: #fff6f5;
+  text-align: center;
 }
-.paradiv p{
-    width: 230px;
-    font-size: 20px;
-    margin: 0 auto;
+.paradiv p {
+  width: 230px;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+@media (max-width: 720px) {
+  /* .contdiv1{
+    padding: 5px;
+  }
+  .contdiv2{
+    padding: 5px;
+  }
+  .contdiv3{
+    padding: 5px;
+  } */
+  .divtwo {
+    width: 250px;
+    /* padding: 20px; */
+    position: relative;
+    right: 10px;
+  }
+  .divone {
+    width: 250px;
+  }
+}
+
+@media (max-width: 665px) {
+  /* .contdiv1{
+    padding: 5px;
+  }
+  .contdiv2{
+    padding: 5px;
+  }
+  .contdiv3{
+    padding: 5px;
+  } */
+  .divtwo {
+    width: 250px;
+    padding: 20px;
+    position: relative;
+    right: 10px;
+  }
+  .divone {
+    width: 220px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 635px) {
+  /* .contdiv1{
+    padding: 5px;
+  }
+  .contdiv2{
+    padding: 5px;
+  }
+  .contdiv3{
+    padding: 5px;
+  } */
+  .divtwo {
+    width: 250px;
+    padding: 20px;
+    position: relative;
+    right: 10px;
+  }
+  .divone {
+    width: 210px;
+  }
+  .indiv1 {
+    width: 100px;
+  }
+  .indiv2 {
+    width: 100px;
+  }
+  .indiv3 {
+    width: 90px;
+  }
+  .indiv4 {
+    width: 90px;
+  }
+}
+@media (max-width: 605px) {
+  /* .contdiv1{
+    padding: 5px;
+  }
+  .contdiv2{
+    padding: 5px;
+  }
+  .contdiv3{
+    padding: 5px;
+  } */
+  .divtwo {
+    width: 220px;
+    padding: 20px;
+    position: relative;
+    right: 10px;
+  }
+  .divone {
+    width: 200px;
+  }
+  .indiv1 {
+    width: 100px;
+  }
+  .indiv2 {
+    width: 100px;
+  }
+  .indiv3 {
+    width: 90px;
+  }
+  .indiv4 {
+    width: 90px;
+  }
+  .paradiv p {
+    width: 200px;
+  }
+}
+
+@media (max-width: 590px) {
+  .bigdiv {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* margin: 0 auto; */
+    height: 900px;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+  }
+  .divone {
+    width: 280px;
+    /* background-color: purple; */
+    background-color: #5f3ffc;
+    background-image: linear-gradient(#6541fd, #573df8, #533afc, #4926d0);
+    border-radius: 0px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+
+    padding: 30px;
+    position: relative;
+    z-index: 1;
+  }
+  .divtwo {
+    box-shadow: 3px 3px 20px 12px #f2f5fe;
+    padding: 40px 30px 30px 40px;
+    width: 300px;
+    border-radius: 20px;
+    position: relative;
+    left: -1px;
+    height: 400px;
+    /* right: 30px; */
+    bottom: 40px;
+    /* z-index: 10px; */
+    /* border-radius: 0px 0px 5px 10px; */
+  }
+  .divone .scorediv {
+    /* margin: 0%; */
+    margin-bottom: 0px;
+    box-shadow: inset 4px 4px 8px #4926d0, inset -4px -4px 8px #4926d0;
+    /* box-shadow:  20px 20px 60px #bebebe, -20px -20px 60px #ffffff; */
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 25px;
+  
+    /* margin: 30px auto; */
+    /* padding: 10px; */
+  }
+}
+
+@media (max-width: 370px) {
+  .divtwo {
+    box-shadow: 3px 3px 20px 12px #f2f5fe;
+    padding: 40px 30px 30px 40px;
+    width: 280px;
+    border-radius: 20px;
+    position: relative;
+    left: -1px;
+    height: 400px;
+    /* right: 30px; */
+    bottom: 40px;
+    /* z-index: 10px; */
+    /* border-radius: 0px 0px 5px 10px; */
+  }
+  .divone {
+    width: 270px;
+    /* background-color: purple; */
+    background-color: #5f3ffc;
+    background-image: linear-gradient(#6541fd, #573df8, #533afc, #4926d0);
+    border-radius: 0px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+
+    padding: 30px;
+    position: relative;
+    z-index: 1;
+  }
+}
+@media (max-width: 350px) {
+  .divone{
+    width: 250px;
+  }
+  .divtwo{
+    width: 250px;
+  }
 }
